@@ -16,7 +16,7 @@ const Nav = () => {
     <div>
       {/* Navbar for larger screens */}
       <div className="flex items-center justify-between h-16 Container">
-        <div className="Logo font-cusFont text-2xl font-semibold">
+        <div className="Logo font-cusFont text-2xl font-bold">
           <Link to="/">&#123;Finsweet</Link>
         </div>
         <div className="hidden md:flex Nav_Link font-cusFont text-sm font-light gap-7 items-center text-gray-700">
@@ -25,7 +25,7 @@ const Nav = () => {
           <Link to="/AboutUs" className="hover:text-gray-400">About Us</Link>
           <Link to="/Contact" className="hover:text-gray-400">Contact</Link>
           <Link to="/Prizing" className="hover:text-gray-400">Prizing</Link>
-          <button className="bg-black text-white py-2 px-5 rounded-md">
+          <button className="bg-black text-white py-3 px-5 rounded-md">
             Free trial
           </button>
         </div>

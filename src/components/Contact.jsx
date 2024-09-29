@@ -7,7 +7,7 @@ const Contact = () => {
     <div>
       <div className="">
         <div className=" md:pt-18 pt-20 bg-[radial-gradient(circle_at_left,_var(--tw-gradient-stops))] from-green-50 via-white to-white w-full h-full">
-          <h1 className="sm:text-5xl text-center text-2xl font-semibold mb-20">
+          <h1 className="sm:text-5xl text-center text-2xl font-bold mb-20">
             Get in touch with us
           </h1>
 

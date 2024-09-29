@@ -7,7 +7,7 @@ const Prizing = () => {
   return (
     <div>
       <div className="flex flex-col justify-center w-full items-center pt-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-green-100 via-blue-50 to-white">
-        <h1 className="sm:text-5xl text-center text-2xl font-semibold Container">
+        <h1 className="sm:text-5xl text-center text-2xl font-bold Container">
           Pricing plans that <br /> suit you
         </h1>
         <div className="Container">

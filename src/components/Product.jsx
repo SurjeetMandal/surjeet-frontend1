@@ -24,7 +24,7 @@ const Product = () => {
       <div className="bg-gradient-to-l from-indigo-50 via-green-50 to-white">
         <div className="flex justify-between flex-col lg:flex-row Container gap-5">
           <div className="flex justify-center items-center lg:items-start mt-8 w-full lg:w-6/12 flex-col">
-            <p className="sm:text-5xl lg:text-left text-2xl font-semibold mt-8 md:mt-0 text-center">
+            <p className="sm:text-5xl lg:text-left text-2xl font-bold mt-8 md:mt-0 text-center">
               Grow your Sales and <br /> Services
             </p>
             <p className="text-zinc-500 mt-8 mb-5 lg:text-left text-center">

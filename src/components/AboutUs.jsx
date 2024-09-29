@@ -14,7 +14,7 @@ const AboutUs = () => {
     <div>
       <div className="Container">
         <div className="bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-green-100 via-white to-white flex flex-col justify-center w-full items-center pt-20">
-          <h1 className="sm:text-5xl text-center text-2xl font-semibold Container">
+          <h1 className="sm:text-5xl text-center text-2xl font-bold Container">
             We are proud of our products
           </h1>
           <div className="Container">

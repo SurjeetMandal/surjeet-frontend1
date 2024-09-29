@@ -50,20 +50,20 @@ const footer = () => {
               <p className="text-zinc-500 cursor-pointer">Testimonial</p>
             </div>
 
-            <div className="1 flex flex-col gap-3 2/5">
+            <div className="1 flex flex-col gap-3 md:w-[300px]">
               <div className="Logo font-cusFont text-2xl font-semibold pt-20 text-white">
                 <Link to="/">&#123;Finsweet</Link>
               </div>
               <p className="text-lg text-white font-medium pt-5">
                 Subscribe to our Newsletter
               </p>
-              <div className="bg-[#2B2E3C] rounded-lg md:max-w-[375px] max-w-[298px]">
+              <div className="bg-[#2B2E3C] rounded-lg flex w-full sm:max-w-[300px] justify-between self-center md:self-start">
                 <input
                   type="text"
                   placeholder="Enter Your Email"
-                  className="outline-none border-none px-5 py-3 bg-transparent text-zinc-500 text-[12px] md:text-base"
+                  className="outline-none border-none px-5 py-3 bg-transparent text-zinc-500 text-[12px] md:text-base min-w-12" 
                 />
-                <button className="bg-white py-3 rounded-lg px-5 text-[12px] md:text-base">
+                <button className="bg-white py-3 rounded-lg px-5 text-[12px] md:text-base self-end">
                   Subscribe
                 </button>
               </div>

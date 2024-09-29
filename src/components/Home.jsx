@@ -19,13 +19,13 @@ import bicon3 from "../assets/b-icon3.svg";
 const Home = () => {
   return (
     <div>
-      <div className="md:pt-18 pt-20">
+      <div className="md:pt-20 pt-10">
         <div className="bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-green-100 via-white to-white flex flex-col justify-center w-full items-center">
-          <h1 className="sm:text-5xl text-center text-2xl font-semibold Container">
+          <h1 className="sm:text-5xl text-center text-2xl font-bold Container">
             The Best Software to Grow <br /> your Sale and Service
           </h1>
           <div className="Container">
-            <p className="sm:mt-10 mt-8 text-center sm:text-lg text-[13px] text-zinc-500">
+            <p className="sm:mt-10 mt-8 text-center sm:text-lg text-sm text-zinc-500">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod <br /> invidunt ut labore et dolore magna erat.
             </p>
@@ -44,7 +44,9 @@ const Home = () => {
             </button>
           </div>
 
-          <img src={heroImg} alt="Png" className="mt-10 md:max-h-[400px] lg:max-h-[700px] sm:max-h-[300px] max-h-[200px]" />
+          <div className="Container">
+            <img src={heroImg} alt="Png" className="mt-10 md:max-h-[400px] lg:max-h-[700px] sm:max-h-[300px] max-h-auto" />
+          </div>
         </div>
       </div>
 
